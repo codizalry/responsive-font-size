@@ -1,0 +1,21 @@
+# WordPress Core
+wp-config.php
+wp-config-sample.php
+.htaccess
+*.log
+*.map
+*.swp
+*.swn
+*.swo
+
+# WP Plugins
+wp-content/plugins/*
+
+# WP Uploads
+wp-content/uploads/*
+
+#WP Includes
+wp-includes/*
+
+#WP Admin
+wp-admin/*

@@ -1,0 +1,19 @@
+
+## 14.1.0 (2021-07-21)
+
+### Added (123 changes)
+
+- [Add ability to set `squash_option` in the Project API](gitlab-org/gitlab@0cd893d72f410351411563e54af9e1d3f6fd789f) ([merge request](gitlab-org/gitlab!66122))
+- [Add ref to pipeline graphql schema](gitlab-org/gitlab@4f4f2ec9adf86f841828b87f39639684ee2051f0) ([merge request](gitlab-org/gitlab!66241))
+- [Upsell the GitLab Managed Terraform state if the repo contains `.tf` files](gitlab-org/gitlab@e2763f345fde0232092e6b099550c715c503e03e) ([merge request](gitlab-org/gitlab!65870))
+- [Add mailgun endpoint for receiveing permanent failures](gitlab-org/gitlab@af2a6a81b92110c27da08528c5ed5dfe1ebf3f7d) ([merge request](gitlab-org/gitlab!65078))
+- [Add error tracking collector](gitlab-org/gitlab@90e16440fc02e74d426a8c023a2e6a0f9d430990) ([merge request](gitlab-org/gitlab!65767))
+- [Add Vulnerability Management metric for Devops Adoption API](gitlab-org/gitlab@4ef341255b5620a68a9ee3b4f8a570bac0bb1202) ([merge request](gitlab-org/gitlab!66081))
+- [Allow immediate deletion of projects](gitlab-org/gitlab@1752841832fcbe88bd9da3b3720697bcce2be9dc) ([merge request](gitlab-org/gitlab!65522)) **GitLab Enterprise Edition**
+- [Make database changes to persist false_positive information](gitlab-org/gitlab@10ff49e8bca5a0510fc2599bf378f1aecbe16394) ([merge request](gitlab-org/gitlab!65573))
+- [Added user_cap to setting update service](gitlab-org/gitlab@f88b2f61621c4177adbd3ac68fa7e53f95aab811) ([merge request](gitlab-org/gitlab!65542))
+- [Audit successful GPG key creation and removal](gitlab-org/gitlab@f32cc873fac3b730af86bb8095862190770174ff) ([merge request](gitlab-org/gitlab!65973)) **GitLab Enterprise Edition**
+- [Enable sidekiq load balancing by default](gitlab-org/gitlab@a36a0b84264738c942363798a9dab3a6b51895a7) ([merge request](gitlab-org/gitlab!65669))
+- [Add Pipeline Editor branch selector](gitlab-org/gitlab@13b69f776686e98fa0752c303aebb8c64320c264) ([merge request](gitlab-org/gitlab!61793))
+- [Introduce multiple oncall schedules feature](gitlab-org/gitlab@643a821b2314347b6932a36642ab9a77271652e8) ([merge request](gitlab-org/gitlab!65827)) **GitLab Enterprise Edition**
+- [Track secure scans](gitlab-org/gitlab@4e38000304a5f900bf9049fdf5e5a4de488f8bfb) ([merge request](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/64578)) **GitLab Enterprise Edition**

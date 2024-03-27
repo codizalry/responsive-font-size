@@ -1,0 +1,353 @@
+/* font sizes */
+.fs-1 {
+  font-size: 2.25rem;
+}
+
+.fs-2 {
+  font-size: 2rem;
+}
+
+.fs-3 {
+  font-size: 1.50rem;
+}
+
+.fs-4 {
+  font-size: 1.25rem;
+}
+
+.fs-5 {
+  font-size: 1rem;
+}
+
+.fs-6 {
+  font-size: 0.875rem;
+}
+
+/* End of font sizes */
+
+/*Form Section*/
+ .tooltip {
+  content: "\003F";
+  background-color: #606060;
+  color: #DCDCDC;
+  padding: 1px 6px;
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-button input[type=submit]{
+  padding: 2px 10px;
+}
+
+ .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  margin-left: 5px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 2px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 10px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+ /* End of Form section */
+
+ /* Global Css */
+.container {
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.error-message{
+  display: inline-block;
+  color: #D00000;
+  background-color: #ffb6c1;
+  padding: 10px 15px;
+  margin-top:8px;
+}
+/* End of Global Css */
+
+/* Description Css */
+.font-description {
+  line-height: 1.75;
+}
+
+.form-content {
+  width: 100%;
+}
+
+.font-form {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.form-content label {
+  display: inline-flex;
+  width: 18%;
+  font-weight: bold;
+  color: #484848;
+  cursor: auto;
+}
+
+.font-form .form-table th {
+  color: #484848;
+}
+
+.font-details {
+  display: flex;
+}
+
+.font-measurement,
+.font-legends {
+  border: 2px solid #A9A9A9;
+  width: 48%;
+  border-radius: 5px;
+  height: auto;
+}
+
+.font-measurement {
+  margin-right: 2%;
+}
+
+.font-legends {
+  margin-left: 2%;
+}
+
+.font-measurement p,
+.font-legends p {
+  padding-left: 20px;
+}
+
+.font-instruc {
+  justify-content: space-around;
+}
+
+.class1-3,
+.class4-6 {
+  margin: 5px;
+}
+
+/* Table Style*/
+table.table-legends {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.table-legends {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-legends td,
+.table-legends thead {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+.table-legends tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.table-legends tbody tr:hover {
+  background-color: #dddddd;
+}
+
+.table-legends thead {
+  text-align: left;
+  background-color: rgba(249, 239, 78, 1);
+  color: #505050;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* End of Description Css */
+
+/* Radio Button Style */
+.class_counts {
+  float: left;
+  margin-right: 5px;
+  width: 50px;
+  height: 40px;
+  position: relative;
+}
+
+.class_counts label,
+.class_counts input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.class_counts input[type="radio"] {
+  opacity: 0.01;
+  z-index: 100;
+}
+
+.class_counts input[type="radio"]:checked+label {
+  background-color: rgba(249, 239, 78, 1);
+}
+
+.class_counts label {
+  padding: 9px 5px 2px;
+  border: 1px solid #CCC;
+  border-radius: 2px;
+  cursor: pointer;
+  z-index: 90;
+  text-align: center;
+  font-weight: bold;
+}
+
+.class_counts label:hover {
+  background: #dddddd;
+}
+
+/* End of Radio Button Style*/
+
+
+/* Form fields style */
+.form-button {
+  display: inline-flex;
+}
+
+.form-button a {
+  background: #2271b1;
+  border: 1px solid #2271b1;
+  border-radius: 3px;
+  font-size: 13px;
+  color: #ffffff;
+  padding: 5.5px 13px;
+  margin: 30px 5px;
+  ;
+}
+
+.form-button a:hover {
+  background: #135e96;
+  border-color: #135e96;
+}
+
+.font-form table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.font-form input::-webkit-outer-spin-button,
+.font-form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.font-form input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.font-form input[type=text],
+.font-form input[type=number],
+.font-form input[type=range] {
+  width: 150px;
+  margin-right: 10px;
+  padding: 5px 0 5px 5px;
+}
+
+.font-form input[type=range] {
+  padding: 0px;
+}
+
+.font-form tr:nth-child(2n+3) th,
+.font-form tr:nth-child(-n+2) th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.form-table tr:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+
+.font-form td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  width: 80%;
+}
+
+.font_range_label {
+  font-weight: bold;
+}
+
+/* End of form fields style */
+
+
+@media screen and (max-width: 767px) {
+  .font-form {
+    margin: 0 20px;
+    width: 100%
+  }
+
+  .font-form td {
+    width: 100%;
+    padding: 5%;
+  }
+
+  .class_counts {
+    margin-bottom: 50px;
+  }
+
+  .form-table td input[type=text] {
+    width: 120px;
+    display: inline-block;
+  }
+
+  .font-legends,
+  .font-measurement {
+    padding: 0;
+    margin: 0 auto 15px;
+    width: 100%;
+  }
+
+  .font-details {
+    text-align: center;
+    display: block;
+  }
+}
